@@ -18,4 +18,4 @@ def prime_factors(num):
 if __name__ == "__main__":
     p = prime_factors(13195)
     print max(p)
-    print "This is problem3"
+    print "This is problem 3"

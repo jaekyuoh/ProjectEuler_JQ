@@ -24,4 +24,4 @@ if __name__ == "__main__":
 
     result = ith_prime(10001)
     print result
-    print "This is problem6"
+    print "This is problem 7"

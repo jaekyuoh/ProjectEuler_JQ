@@ -22,4 +22,4 @@ def difference():
 if __name__ == "__main__":
     result = difference()
     print result
-    print "This is problem6"
+    print "This is problem 6"

@@ -32,7 +32,7 @@ def fib(n):
 
 
 if __name__ == "__main__":
-    print "This is problem2"
+    print "This is problem 2"
     sequence, even = fib(100)
     print even
 
