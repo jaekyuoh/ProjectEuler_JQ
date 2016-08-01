@@ -3,9 +3,10 @@
 #
 # Find the sum of all the primes below two million.
 
+import math
 
 def is_prime(num):
-    for k in range(2, num):
+    for k in range(2, int(math.sqrt(num))+1):
         if num % k == 0:
             return False
     return True
