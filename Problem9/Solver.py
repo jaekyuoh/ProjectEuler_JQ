@@ -8,5 +8,27 @@
 # Find the product abc.
 
 
+
+def find_triplet(sum):
+    for i in range(1,sum/2+1):
+        if i > 1000:
+            break
+        for j in range(1, sum/2 + 1):
+            if j > 1000:
+                break
+            for k in range(1, sum/2 + 1):
+                if k > 1000:
+                    break
+                left = i**2 + j**2
+                right = k**2
+
+                if left == right:
+                    if i+j+k == sum:
+                        return i,j,k
 if __name__ == '__main__':
+    i,j,k = find_triplet(1000)
+    print i,j,k
+    result = i*j*k
+    print result
+
     print "This is problem 9"
